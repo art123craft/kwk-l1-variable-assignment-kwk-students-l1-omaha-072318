@@ -1,4 +1,11 @@
- # Define a local variable called 'greeting',
- # give it the value of the string "Hello World"
-greeting = "Hello World"
-puts "#{greeting}!"
+def greeting(local_greeting, your_name, my_name, time_of_day)
+  
+  puts "#{local_greeting} #{your_name}, I'm #{my_name}, how's your #{time_of_day}?"
+end
+  
+greeting("What's up","Kim","Kayne","morning")
+greeting("Hey","Beyonce","Charlie","night")
+  
+  
+
+ 
