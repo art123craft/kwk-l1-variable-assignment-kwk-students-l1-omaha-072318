@@ -1,5 +1,4 @@
-def greeting(my_name)
-  puts "Hi, I'm #{my_name}"
+def say_hello_one
+  your_name = "Charlie"
+  puts "Hello #{your_name}!"
 end
-
-greeting ("Cardi B")
